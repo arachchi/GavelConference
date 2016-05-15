@@ -935,7 +935,7 @@ nav .container {
   text-align: left;
 }
 .primary-overlay:before {
-  background-color: #ff5f00;
+  background-color: #3B92AE;
   opacity: 0.8;
   position: absolute;
   content: '';
@@ -943,7 +943,7 @@ nav .container {
   height: 100%;
   z-index: 1;
   top: 0px;
-  background-color: #ff5f00 !important;
+  background-color: #3B92AE !important;
 }
 .strip-divider {
   padding: 216px 0px;

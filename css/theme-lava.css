@@ -385,7 +385,7 @@ p a,
 .btn {
   min-width: 180px;
   border-radius: 25px;
-  background: #e12b00;
+  background: #7760A8;
   text-align: center;
   padding: 13px 0px 14px 0px;
   color: #fff;
@@ -398,15 +398,15 @@ p a,
 }
 .btn:hover {
   color: #fff;
-  background: #c82600;
+  background: #554093;
 }
 .btn-hollow {
   background: none;
-  border: 2px solid #e12b00;
-  color: #e12b00;
+  border: 2px solid #7760A8;
+  color: #7760A8;
 }
 .btn-hollow:hover {
-  background: #e12b00;
+  background: #7760A8;
 }
 .btn-white {
   background: #fff;
@@ -597,7 +597,8 @@ nav .container {
   margin-right: 18px;
 }
 .sticky-nav {
-  background: rgba(255, 255, 255, 0.9);
+  background:#54CE3D;
+  opacity: 0.9;
 }
 .sticky-nav .menu li a {
   color: #333333;
@@ -935,7 +936,7 @@ nav .container {
   text-align: left;
 }
 .primary-overlay:before {
-  background-color: #e12b00;
+  background-color: #3B92AE;
   opacity: 0.8;
   position: absolute;
   content: '';
@@ -943,7 +944,7 @@ nav .container {
   height: 100%;
   z-index: 1;
   top: 0px;
-  background-color: #e12b00 !important;
+  background-color: #3B92AE !important;
 }
 .strip-divider {
   padding: 216px 0px;
@@ -1883,7 +1884,7 @@ p.question {
 // 15. Contact
 // --------------------------------------------------*/
 .contact-tweets {
-  background: #e12b00;
+  background: #3C9829;
   color: #fff;
   position: relative;
   overflow: hidden;
