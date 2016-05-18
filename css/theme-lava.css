@@ -2396,3 +2396,15 @@ i.pe-7s-micro, i.pe-7s-users, i.pe-7s-display2{
     font-weight: 700;
     font-style: italic;
 }
+
+@media only screen and (max-width: 775px) {
+#raw3{
+    display:none;
+}
+
+}
+@media only screen and (min-width: 775px) {
+ #raw1, #raw2{
+    display:none;
+}   
+}
