@@ -1259,6 +1259,7 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
                                                                 <option value=""></option>
                                                                 <option value="Gavellier">Gavellier</option>
                                                         <option value="Student (Non Gavellier)">Student (Non Gavellier)</option>
+                                                        <option value="Professional (Toastmaster)">Professional (Toastmaster)</option>
                                                         <option value="Professional (Non Gavellier)">Professional (Non Gavellier)</option>
 
                                                                 </select>
@@ -1416,6 +1417,10 @@ $(document).ready(function() {
         }
         else if(person_val=="Student (Non Gavellier)"){
             $('#price_display').empty().html('The ticket price for students (non-gavellier) is 2,500/= LKR (inclusive of lunch, snacks and stationery)').css({'display':'inline-block','font-weight':'600'});
+            $('#club_affil').css('display','none');
+        }
+        else if(person_val=="Professional (Toastmaster)"){
+            $('#price_display').empty().html('The ticket price for professionals (Toastmasters) is 4,000/= LKR (inclusive of lunch, snacks and stationery)').css({'display':'inline-block','font-weight':'600'});
             $('#club_affil').css('display','none');
         }
         else if(person_val=="Professional (Non Gavellier)"){
