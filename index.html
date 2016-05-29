@@ -2,6 +2,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <link rel="icon" href="logos/favic.png">
         <meta charset="utf-8">
         <title>Gavel Conference</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +13,12 @@
         <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme-lava.css" rel="stylesheet" type="text/css" media="all"/>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
     
-    	<script src="js/allscripts.js"></script> 
+    	<!--script src="js/allscripts.js"></script--> 
+        
     	
 <!--<script src="jquery-1.12.1.js"></script><!--added-->
         <!--<script src="Swipe/component.json"></script><!--added-->
@@ -54,7 +57,7 @@
 										<!--</ul>-->
 									</li>
 									
-									<li><a class="inner-link" href="#about" target="default">about</a></li><li><a class="inner-link" href="#speakers" target="default">speakers</a></li><li><a class="inner-link" href="#schedule" target="default">schedule</a></li><li><a class="inner-link" href="#contact" target="default">directions</a></li><li><a class="inner-link" href="#subscribe" target="default">subscribe</a></li>
+									<li><a class="inner-link" href="#about" target="default">about</a></li><li><a class="inner-link" href="#speakers" target="default">speakers</a></li><li><a class="inner-link" href="#schedule" target="default">schedule</a></li><li><a class="inner-link" href="#contact" target="default">directions</a></li><li><a class="inner-link" href="#subscribe" target="default">register</a></li>
 									<li class="social-link"><a href="https://twitter.com/GavelConf16"><i class="icon social_twitter"></i></a></li>
 									<li class="social-link"><a href="https://www.facebook.com/gavelconference2016"><i class="icon social_facebook"></i></a></li>
 									<!--li class="social-link instagram-toggle"><a href="#" class="instagram-toggle-init"><i class="icon social_instagram"></i></a></li-->
@@ -76,7 +79,7 @@
 								<ul class="menu" style="margin-right: 32px;">
 									<li><a class="inner-link" href="#home" target="default">home</a></li>
 									
-									<li><a class="inner-link" href="#about" target="default">about</a></li><li><a class="inner-link" href="#speakers" target="default">speakers</a></li><li><a class="inner-link" href="#schedule" target="default">schedule</a></li><li><a class="inner-link" href="#contact" target="default">directions</a></li><li><a class="inner-link" href="#subscribe" target="default">subscribe</a></li>
+									<li><a class="inner-link" href="#about" target="default">about</a></li><li><a class="inner-link" href="#speakers" target="default">speakers</a></li><li><a class="inner-link" href="#schedule" target="default">schedule</a></li><li><a class="inner-link" href="#contact" target="default">directions</a></li><li><a class="inner-link" href="#subscribe" target="default">register</a></li>
 									<li class="social-link"><a href="https://twitter.com/GavelConf16"><i class="icon social_twitter"></i></a></li>
 									<li class="social-link"><a href="https://www.facebook.com/gavelconference2016"><i class="icon social_facebook"></i></a></li>
 									<!--li class="social-link instagram-toggle"><a href="#" class="instagram-toggle-init"><i class="icon social_instagram"></i></a></li-->
@@ -111,19 +114,39 @@
 				
 		</div>
 		<div class="main-container"><a id="home" class="in-page-link"></a>
-			
 			<section class="hero-slider">
+                            
 				<ul class="slides">
 					<li class="countdown-header primary-overlay">
 						<div class="background-image-holder parallax-background">
 							<img class="background-image" alt="About Image" src="img/public-speaking.jpg">
 						</div>
+                                            
+                                            
 					
 						<div class="container">
-							<div class="row">
-								<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                                                    <div class="row" ><div class="col-md-12" style=" height:80px;"></div></div>
+                                                    <div class="row" id="raw1">
+                                                        <div class="col-md-4 col-sm-4"></div>
+                                                        <div class="col-md-4 col-sm-4"><div style=" margin:0 auto; width:100px; height:70px; z-index:9999 ;  background-size: contain; background-image: url(logos/Conf.png); background-repeat: no-repeat;"></div></div>
+                                                        <div class="col-md-4 col-sm-4"></div>
+                                                    </div>
+                                                    <div class="row" id="raw2">
+                                                        <div class="col-md-6 col-sm-6"><div style="width:84px; height:70px; z-index:9999 ; float:left; background-size: 100%; background-image: url(logos/tlm.png); background-repeat: no-repeat;"></div></div>                                                        
+                                                        <div class="col-md-6 col-sm-6"><div  style=" width:70px; height:70px; z-index:9999 ; float:right; background-size: contain; background-image: url(logos/GavelClubLogo.png); background-repeat: no-repeat;"></div></div>
+                                                    </div>
+                                                    
+                                                    <div class="row" id="raw3" style=" padding-bottom:20px;">
+                                                <div class="col-md-4 col-sm-4"><div id="tml"  style="width:181px; height:150px; z-index:999 ; float:left; background-size: 100% 100%; background: url(logos/Toastmasters.png);"></div></div>
+                                                <div class="col-md-4 col-sm-4"><div id="gcl" style=" margin:0 auto; width:218px; height:150px; z-index:999 ;  background-size: contain; background-image: url(logos/Conf.png); background-repeat: no-repeat;"></div></div>
+                                                <div class="col-md-4 col-sm-4"><div id="gll" style=" width:150px; height:150px; z-index:999 ; float:right; background-size: contain; background-image: url(logos/GavelClubLogo.png);"></div></div>
+                                            </div>
+                                                    	
+                                                    <div class="row">
+                                                            	
+								<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center" >
 									<!--<img alt="logo" class="logo" src="img/logo.png">-->
-									<span class="uppercase text-white">June 5th - Taj Samudra, Colombo, Sri Lanka</span>
+									<span class="uppercase text-white">5<sup>th</sup>  June - Taj Samudra, Colombo, Sri Lanka</span>
                                     
                                     <div id='slider' class='swipe'>
     <!--added--><!--<div class='swipe-wrap'>
@@ -147,21 +170,25 @@
                                          
     </div>
 </div> <!--added-->
-									<h1 class="text-white small-h1">Gavel Clubs of Sri Lanka
+									<h1 class="text-white small-h1" style="font-weight:500;">Gavel Clubs of Sri Lanka
 </h1>
                                    
-                                    <h1 class="text-white small-h1">with the collaboration of Toastmasters International present…</h1>
-                                    <span class="text-white large-h1">Gavel Conference 2016</span>
-                                    <h1 class="text-white small-h1">where future leaders meet
-</h1>
+                                    <h1 class="text-white small-h1" style="font-weight:500;">with the collaboration of Toastmasters International present</h1>
+                                    <span class="text-white h1" style="font-size: 3.5em !important;">Gavel Conference Sri Lanka 2016</span>
+                                    <!--h1 class="text-white small-h1">where future leaders meet
+</h1-->
 								</div>
 							</div><!--end of row-->
 						
-							<div class="row">
+							<div class="row" style=" font-size: 1.5em !important; padding-bottom:0px !important;">
 								<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-									<div class="countdown" data-date="2016/06/05"></div>
+
+									<div class="countdown" data-date="2016/06/05 08:00:00"></div>
+
 								</div>
 							</div>
+                                                        <div class="row" style="height:35px;"></div>
+                                                        <div class="row"><div  style=" margin:0 auto; height:100px; z-index:9999 ;  background-size: contain; background-repeat: no-repeat; background-image: url(logos/clubs.png);"></div></div>
 						</div><!--end of container-->
 					</li>
 				</ul>
@@ -171,6 +198,12 @@
 			
 			<section class="inline-video">
 				<div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 col-md-offset-4 " style="text-align:center; padding-bottom: 10px; font-size: 1.2em; font-weight: 600;">With the Platinum Sponsorship of</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-4"><div  style="width: 300px; margin-left: 30px; height:150px; z-index:9999 ; float:left; background-size: 100%; background-repeat: no-repeat; background-image: url(logos/mit.png);"></div></div>
+                                    </div>
 					<div class="row">
 						<div class="col-sm-12">
 							<h1>Welcome to Gavel Conference&nbsp;</h1>
@@ -178,56 +211,56 @@
 					</div><!--end of row-->
 				
 					<div class="row">
-						<div class="col-md-12 ">
+						<div class="col-md-6 ">
 							<p class="lead text-justify">
 								
 Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is an event focused on uniting all the Gaveliers and non-Gaveliers of universities, private institutions and schools island-wide. It is a great chance and a privilege for all participants to witness an event that will undoubtedly be life-changing. The experience they gain by participating in the sessions will be one-of-a-kind and it will add great value to their professional careers. The conference aims at guiding budding professionals to become effective speakers and leaders and serve this nation in the near future with their utmost potential.
 
 						
 							</p>
-							<a href="#" class="btn">Reserve tickets</a>
-							<a href="#" class="btn btn-hollow">Subscribe</a>
+							<a href="#reg_top" class="btn">Register Now</a>
+							<!--a href="#" class="btn btn-hollow">Subscribe</a-->
 						</div>
 					
-						<!--div class="col-md-6">
+						<div class="col-md-6">
 							<div class="embedded-video-holder">
-								<iframe delay-src="//player.vimeo.com/video/88883554?color=ffffff" src="//player.vimeo.com/video/88883554?color=ffffff"></iframe>
+								<iframe width="640" height="360" src="https://www.youtube.com/embed/wqWvQhWK5D4" frameborder="0" allowfullscreen></iframe>
 							</div>
-						</div-->
+						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
 			</section>
 			
-			<section class="topics duplicatable-content overlay">
+			<section class="topics duplicatable-content secondary-overlay">
 			
 				<div class="background-image-holder parallax-background">
-					<img class="background-image" alt="About Image" src="img/hero2.jpg">
+					<img class="background-image" alt="About Image" src="img/lb5.jpg">
 				</div>
 			
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<h1 class="text-white">Topics Covered</h1>
+							<h1 class="text-white">Main Events</h1>
 						</div>
 					</div><!--end of row-->
 					
 					<div class="row">
 						<div class="col-md-4 col-sm-6">
 							<div class="topic">
-								<i class="pe-7s-ribbon"></i>
-								<h3 class="text-white">Inter-Gavel Club Speech Competition</h3>
+								<i class="pe-7s-micro"></i>
+								<h3 class="text-white">All Island Best Gavel Speaker 2016</h3>
 								<p class="lead text-white">
 									The contest is held with the motives of uncovering hidden talents of budding young speakers in Sri Lanka and encouraging them to polish their skills and to strive towards success. The participants of the conference will get the opportunity to witness the Grand Finale during the day of the conference. The contest will be conducted in full compliance with Toastmasters International standards, with the participation of Toastmasters as judges.
 								</p>
 								<ul class="ruled-list text-white">
-									<li>400+ contestants Island wide</li>
-									<li>3 rounds of contest</li>
-									<li>Opportunity for promotions in all locations and rounds</li>
+									<li>□ 400+ contestants Island wide</li>
+									<li>□ 3 rounds of contest</li>
+									
 								</ul>
 							</div>
 						</div><!--end of individual topic-->
 						
-						<div class="col-md-4 col-sm-6">
+						<!--div class="col-md-4 col-sm-6">
 							<div class="topic">
 								<i class="pe-7s-id"></i>
 								<h3 class="text-white">Leadership Training Program</h3>
@@ -244,31 +277,33 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 						
 						<div class="col-md-4 col-sm-6">
 							<div class="topic">
-								<i class="pe-7s-medal"></i>
-								<h3 class="text-white">Model Meeting</h3>
+								<i class="pe-7s-users"></i>
+								<h3 class="text-white">Model Gavel Meeting</h3>
 								<p class="lead text-white">
 									A demonstration of a methodical gavel meeting will be conducted, along with explanations of each role player and position holder within a Gavel club, with the motive of enhancing the quality of meetings conducted by university undergraduates, especially of Gavel clubs recently established. The General Evaluator of the meeting would be an experienced Toastmaster.
 								</p>
 								<ul class="ruled-list text-white">
-									<li>Compliance with Toastmasters International Standards</li>
-									<li>Participation of eminent Toastmasters in Sri Lanka as evaluators</li>
-									<li>Participation of school students & undergraduates</li>
+									<li>□ Compliance with Toastmasters International Standards</li>
+									<li>□ Participation of eminent Toastmasters in Sri Lanka as evaluators</li>
+									<li>□ Participation of school students & undergraduates</li>
 								</ul>
 							</div>
 						</div><!--end of individual topic-->
                                                 
-                                                <div class="col-md-4 col-sm-6 col-md-offset-4">
+                                                <div class="col-md-4 col-sm-6">
 							<div class="topic">
-								<i class="pe-7s-medal"></i>
+								<i class="pe-7s-display2"></i>
 								<h3 class="text-white">Presentations on Leadership and Communication</h3>
 								<p class="lead text-white">
-									Participants will be given the opportunity to witness presentations conducted by prominent Toastmasters and leading personnel in the industry on communication and leadership. The main objectives of the program are as follows
+									Participants will be given the opportunity to witness presentations conducted by prominent Toastmasters and leading personnel in the industry on communication and leadership. The main topics covered will be as follows
 								</p>
 								<ul class="ruled-list text-white">
-									<li>Learn from leading professionals</li>
-									<li>Facilitate an interactive discussion with experienced personnel</li>
-									<li>Develop public speaking and presentation skills</li>
-                                                                        <li>Build up morale of the undergraduate and school community</li>
+									<li>□ How to increase your level of influence</li>
+                                                                        <li>□ Motivation</li>
+                                                                        <li>□ Way forward</li>
+                                                                        <li>□ Goals on wheels</li>
+									<li>□ Power of story</li>									
+                                                                        <li>□ Being a unique individual in the professional arena: Personal branding</li>                                                                        
 								</ul>
 							</div>
 						</div><!--end of individual topic-->
@@ -296,12 +331,12 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 							<div class="speaker-with-bio">
 								<div class="speaker">
 									<div class="image-holder">
-										<img class="background-image" alt="Speaker" src="img/speakers/balraj.jpg">
+										<img class="background-image" alt="Speaker" src="img/speakers/balraj-m.jpg">
 										<div class="hover-state text-center preserve3d">
-											<div class="social-links vertical-align">
+											<!--div class="social-links vertical-align">
 												<a href="#"><i class="icon social_twitter"></i></a>
 												<a href="#"><i class="icon social_linkedin"></i></a>
-											</div>
+											</div-->
 										</div>
 									</div>
 								</div>
@@ -310,11 +345,148 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 									<h2>DTM Arunasalam Balraj</h2>
 									<span class="sub">Vice President of Toastmasters International</span>
 									<p>
-										Keynote speech
+										"Keynote Speech"<br>
+                                                                                "How to Increase Your Level of Influence"
 									</p>
 								</div>
 							</div>
 						</div>
+                                            <!--end of individual speaker with bio-->
+                                            
+                                            <div class="col-md-6 col-sm-12">
+							<div class="speaker-with-bio">
+								<div class="speaker">
+									<div class="image-holder">
+										<img class="background-image" alt="Speaker" src="img/speakers/hiran-m.jpg">
+										<div class="hover-state text-center preserve3d">
+											<!--div class="social-links vertical-align">
+												<a href="#"><i class="icon social_twitter"></i></a>
+												<a href="#"><i class="icon social_linkedin"></i></a>
+											</div-->
+										</div>
+									</div>
+								</div>
+		
+								<div class="speaker-description">
+									<h2>Mr. Hiran Cooray</h2>
+									<span class="sub">Chairman<br>Jetwing Hotels</span>
+									<p>
+										"Motivation"
+									</p>
+								</div>
+							</div>
+						</div>
+                                            <!--end of individual speaker with bio-->
+                                            
+                                            
+                                                
+                                                </div>
+                                            <div class="row">
+                                                
+                                                <div class="col-md-6 col-sm-12">
+                                                            <div class="speaker-with-bio">
+                                                                    <div class="speaker">
+                                                                            <div class="image-holder">
+                                                                                    <img class="background-image" alt="Speaker" src="img/speakers/niranjan-m.jpg">
+                                                                                    <div class="hover-state text-center preserve3d">
+                                                                                            <!--div class="social-links vertical-align">
+                                                                                                    <a href="#"><i class="icon social_twitter"></i></a>
+                                                                                                    <a href="#"><i class="icon social_linkedin"></i></a>
+                                                                                            </div-->
+                                                                                    </div>
+                                                                            </div>
+                                                                    </div>
+
+                                                                    <div class="speaker-description">
+                                                                            <h2>TM Niranjan De Silva</h2>
+                                                                            <span class="sub">Director/CEO Metropolitan Computers<br>Head of Human Resources and ICT of Metropolitan Group</span>
+                                                                            <p>
+                                                                                "Way Forward"
+                                                                            </p>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                <!--end of individual speaker with bio-->
+                                                
+                                                <div class="col-md-6 col-sm-12">
+                                                            <div class="speaker-with-bio">
+                                                                    <div class="speaker">
+                                                                            <div class="image-holder">
+                                                                                    <img class="background-image" alt="Speaker" src="img/speakers/yukthi-m.png">
+                                                                                    <div class="hover-state text-center preserve3d">
+                                                                                            <!--div class="social-links vertical-align">
+                                                                                                    <a href="#"><i class="icon social_twitter"></i></a>
+                                                                                                    <a href="#"><i class="icon social_linkedin"></i></a>
+                                                                                            </div-->
+                                                                                    </div>
+                                                                            </div>
+                                                                    </div>
+
+                                                                    <div class="speaker-description">
+                                                                            <h2>TM Yukthi Gunasekera</h2>
+                                                                            <span class="sub">Managing Director<br>YKG Associates (Pvt) Ltd<br>Specialist in CEO Communication</span>
+                                                                            <p>
+                                                                                    "Goals on Wheels"
+                                                                            </p>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                <!--end of individual speaker with bio-->
+                                                
+                                                
+                                                </div>
+                                                <div class="row">
+                                                
+                                                    <div class="col-md-6 col-sm-12">
+                                                            <div class="speaker-with-bio">
+                                                                    <div class="speaker">
+                                                                            <div class="image-holder">
+                                                                                    <img class="background-image" alt="Speaker" src="img/speakers/trishma-m.jpg">
+                                                                                    <div class="hover-state text-center preserve3d">
+                                                                                            <!--div class="social-links vertical-align">
+                                                                                                    <a href="#"><i class="icon social_twitter"></i></a>
+                                                                                                    <a href="#"><i class="icon social_linkedin"></i></a>
+                                                                                            </div-->
+                                                                                    </div>
+                                                                            </div>
+                                                                    </div>
+
+                                                                    <div class="speaker-description">
+                                                                            <h2>DTM Trishma Pinto</h2>
+                                                                            <span class="sub">Award-winning Speaker<br>CEO & Trainer at Impactur (Pvt.) Ltd</span>
+                                                                            <p>
+                                                                                    "Power of Story"
+                                                                            </p>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                <!--end of individual speaker with bio-->
+                                                    
+                                                <div class="col-md-6 col-sm-12">
+                                                            <div class="speaker-with-bio">
+                                                                    <div class="speaker">
+                                                                            <div class="image-holder">
+                                                                                    <img class="background-image" alt="Speaker" src="img/speakers/locked-m.jpg">
+                                                                                    <div class="hover-state text-center preserve3d">
+                                                                                            <!--div class="social-links vertical-align">
+                                                                                                    <a href="#"><i class="icon social_twitter"></i></a>
+                                                                                                    <a href="#"><i class="icon social_linkedin"></i></a>
+                                                                                            </div-->
+                                                                                    </div>
+                                                                            </div>
+                                                                    </div>
+
+                                                                    <div class="speaker-description">
+                                                                            <h2>Locked</h2>
+                                                                            <span class="sub"></span>
+                                                                            <p>
+                                                                                "Being a Unique Individual in the Professional Arena: Personal Branding"
+                                                                            </p>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                                <!--end of individual speaker with bio-->
+                                            
                                                 <!--div class="col-md-6 col-sm-12">
 							<div class="speaker-with-bio">
 								<div class="speaker">
@@ -338,8 +510,6 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 								</div>
 							</div>
 						</div><!--end of individual speaker with bio-->
-						
-						<!--end of individual speaker with bio-->
 						
 						<!--div class="col-md-6 col-sm-12">
 							<div class="speaker-with-bio">
@@ -367,31 +537,7 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 						
 						<!--end of individual speaker with bio-->
 				
-					<!--div class="col-md-6 col-sm-12">
-							<div class="speaker-with-bio">
-								<div class="speaker">
-									<div class="image-holder">
-										<img class="background-image" alt="Speaker" src="img/speakers/sandun.jpg">
-										<div class="hover-state text-center preserve3d">
-											<div class="social-links vertical-align">
-												<a href="#"><i class="icon social_twitter"></i></a>
-												<a href="#"><i class="icon social_linkedin"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-		
-								<div class="speaker-description">
-									<h2>TM Sandun Fernando</h2>
-									<span class="sub"></span>
-									<p>
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-									</p>
-								</div>
-							</div>
-						</div></div><!--end of row-->
-					
-					
+                                                </div><!--end of row-->                                                		
 				</div><!--end of container-->
 			
 			</section>
@@ -402,21 +548,97 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 				<div class="container">
 					<div class="row">
 						<div class="col-md-5 col-sm-6">
-							<h1>Gavel Conference is set over two days of ground-breaking speeches </h1>
+							<h1>Gavel Conference is set over an entire day of ground-breaking speeches </h1>
 							
 							<p>
 								<!--At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.-->
 							</p>
 							
-							<a href="#" class="btn">Reserve tickets</a>
+							<a href="#reg_top" class="btn">Register Now</a>
 							
 						</div>
 						
-						<div class="col-md-7 col-sm-6">
+                                            <div class="col-md-7 col-sm-6" style=" border: 2px solid rgba(0, 0, 0, 0.2); height: 500px; overflow-y:scroll;">
 							<ul class="schedule-overview">
 								<li>
 									<div class="schedule-title">
-										<span class="time">8:00am </span>
+										<span class="time">8:15am - 9:00am </span>
+										<span class="title">Registration</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+								
+								<li>
+									<div class="schedule-title">
+										<span class="time">8:50am - 8:55am </span>
+										<span class="title">Arrival of the Minister and guests</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+								
+								<li>
+									<div class="schedule-title">
+										<span class="time">9:00am - 9:05am </span>
+										<span class="title">Traditionally lighting the oil lamp</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+								
+								<li>
+									<div class="schedule-title">
+										<span class="time">9:05am - 9:15am </span>
+										<span class="title">National Anthem</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">9:15am - 9:35am </span>
 										<span class="title">Opening Ceremony</span> <!--Welcome &amp; Registration-->
 									</div>
 									
@@ -432,49 +654,11 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 										<div class="bottom"></div>
 									</div>
 								</li><!--end of individual schedule item-->
-								
-								<li>
+                                                                
+                                                                <li>
 									<div class="schedule-title">
-										<span class="time">10:00am</span>
-										<span class="title">Keynote Speech by Mr. Arunasalam Balraj</span>
-									</div>
-									
-									<div class="schedule-text">
-										<!--p>
-											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-										</p-->
-									</div>
-									
-									<div class="marker-pin">
-										<div class="top"></div>
-										<div class="middle"></div>
-										<div class="bottom"></div>
-									</div>
-								</li><!--end of individual schedule item-->
-								
-								<li>
-									<div class="schedule-title">
-										<span class="time">11.15am</span>
-										<span class="title">Prepared Speech Contest</span>
-									</div>
-									
-									<div class="schedule-text">
-										<!--p>
-											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-										</p-->
-									</div>
-									
-									<div class="marker-pin">
-										<div class="top"></div>
-										<div class="middle"></div>
-										<div class="bottom"></div>
-									</div>
-								</li><!--end of individual schedule item-->
-								
-								<li>
-									<div class="schedule-title">
-										<span class="time">12:00pm</span>
-										<span class="title">Leadership Training</span>
+										<span class="time">9:35am - 9:45am</span>
+										<span class="title">Welcome Address </span>
 									</div>
 									
 									<div class="schedule-text">
@@ -492,8 +676,8 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
                                                                 
                                                                 <li>
 									<div class="schedule-title">
-										<span class="time">2:30pm</span>
-										<span class="title">Professional Skill Development</span>
+										<span class="time">9:45am - 10:00am </span>
+										<span class="title">Address by the Chief Guest</span> <!--Welcome &amp; Registration-->
 									</div>
 									
 									<div class="schedule-text">
@@ -511,8 +695,8 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
                                                                 
                                                                 <li>
 									<div class="schedule-title">
-										<span class="time">3:30pm</span>
-										<span class="title">Impromptu Speech Competition</span>
+										<span class="time">10:00am - 10:30am </span>
+										<span class="title">Keynote Speech by Mr. Arunasalam Balraj</span> <!--Welcome &amp; Registration-->
 									</div>
 									
 									<div class="schedule-text">
@@ -530,8 +714,8 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
                                                                 
                                                                 <li>
 									<div class="schedule-title">
-										<span class="time"> 4:15pm - 5:15pm</span>
-										<span class="title">Model Gavel Meeting</span>
+										<span class="time">10:30am - 10:45am </span>
+										<span class="title">Tea Break & Networking</span> <!--Welcome &amp; Registration-->
 									</div>
 									
 									<div class="schedule-text">
@@ -549,8 +733,8 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
                                                                 
                                                                 <li>
 									<div class="schedule-title">
-										<span class="time">5:45pm - 7:15pm</span>
-										<span class="title">Workshop by Mr. Dananjaya Hettiaracchi</span>
+										<span class="time">10:45am - 11:00am </span>
+										<span class="title">Sponsor's Presentation</span> <!--Welcome &amp; Registration-->
 									</div>
 									
 									<div class="schedule-text">
@@ -568,8 +752,8 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
                                                                 
                                                                 <li>
 									<div class="schedule-title">
-										<span class="time">7:55pm - 8:20pm</span>
-										<span class="title">Awarding Ceremony</span>
+										<span class="time">10:45am - 11:00am </span>
+										<span class="title">Sponsor's Presentation</span> <!--Welcome &amp; Registration-->
 									</div>
 									
 									<div class="schedule-text">
@@ -587,8 +771,8 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
                                                                 
                                                                 <li>
 									<div class="schedule-title">
-										<span class="time">8:20pm</span>
-										<span class="title">Closing ceremony</span>
+										<span class="time">11:00am - 12:00pm </span>
+										<span class="title">AIBGS Prepared Speech Competition </span> <!--Welcome &amp; Registration-->
 									</div>
 									
 									<div class="schedule-text">
@@ -603,6 +787,311 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 										<div class="bottom"></div>
 									</div>
 								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">12:00pm - 12:15pm </span>
+										<span class="title"> Entertaintment Item 1</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">12:15pm - 12:45pm </span>
+										<span class="title">Educational Presenation 1</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">12:45pm - 1:45pm </span>
+										<span class="title">Lunch and Networking</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">1:45pm - 2:15pm </span>
+										<span class="title">Educational Presentation 2</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">2:15pm - 2:30pm </span>
+										<span class="title">Entertaintment item 2</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">2:30pm - 3:00pm </span>
+										<span class="title">Educational Presentation 3</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">3:00pm - 3:15pm </span>
+										<span class="title">Entertaintment Item 3</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">3:15pm - 4:15pm </span>
+										<span class="title">Educational Presentation 4 </span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">4:15pm - 4:30pm </span>
+										<span class="title">Tea break & Networking</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">4:30pm - 5:15pm </span>
+										<span class="title">Model Gavel Meeting</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">5:15pm - 5:30pm </span>
+										<span class="title">Entertaintment Item 4</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">5:30pm - 6:00pm </span>
+										<span class="title">AIBGS Impromptu Speech Competition</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">6:00pm - 6:15pm </span>
+										<span class="title">Token of Appreciation</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">6:15pm - 6:30pm </span>
+										<span class="title">Contestant Interview</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">6:30pm - 6:45pm </span>
+										<span class="title">Vote of Thanks</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
+                                                                <li>
+									<div class="schedule-title">
+										<span class="time">6:45pm - 7:00pm </span>
+										<span class="title">Awarding Ceremony</span> <!--Welcome &amp; Registration-->
+									</div>
+									
+									<div class="schedule-text">
+										<!--p>
+											At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+										</p-->
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+                                                                
 							</ul>
 						</div>
 						
@@ -720,35 +1209,132 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 							<div class="tweets-feed" data-widget-id="492085717044981760">
 							
 							</div>
-							<span class="text-white">Follow <a href="https://twitter.com/GavelConf16">@GavelConf16</a> for more updates</span>
+							<span class="text-white">Follow twitter <a href="https://twitter.com/GavelConf16">@GavelConf16</a>  &nbsp  &nbsp  &nbsp &</span>
+						</div>
+					</div><!--end of row-->
+                                        <div class="row">
+						<div class="col-md-5 col-sm-6">
+							<i class=""></i>
+                                                        <div class="tweets-feed" >
+							
+							</div>
+							
+							<span class="text-white"><a href=""></a> </span>
+						</div>
+					</div><!--end of row-->
+                                        <div class="row">
+						<div class="col-md-5 col-sm-6">
+							<i class="icon social_facebook"></i>
+                                                        <div class="tweets-feed" >
+							
+							</div>
+							
+							<span class="text-white">Like the facebook page <a href="https://www.facebook.com/gavelconference2016">Gavel Conference 2016</a> for more updates</span>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
 			
 				<div class="map-holder col-md-6 col-sm-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.2140611954183!2d-122.12117800000001!3d37.408414999999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba7963491697%3A0x2f1c2bf242a2d45d!2sElks+Lodge!5e0!3m2!1sen!2sau!4v1409714993346"></iframe>
+					<iframe src="https://www.google.com/maps/embed/v1/place?q=Taj+Samudra,+Galle+Face+Center+Road,+Colombo,+Western+Province,+Sri+Lanka&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
 				</div>
 			</section>
 			
 			<a id="subscribe" class="in-page-link"></a>
 			
-			<section class="subscribe-2">
+			<section id="reg_top" class="subscribe-2" >
 		
-				<div class="container">
+				<div class="container" id="register_box">
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<i class="icon pe-7s-pen"></i>
 							<i class="icon pe-7s-mail-open-file"></i>
 							<i class="icon pe-7s-paper-plane"></i>
-							<h1 class="large-h1">Subscribe to stay informed</h1>
+							<h1 class="large-h1">Register now</h1>
 						</div>
 					</div><!--end of row-->
 				
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-							<form action="//mrt.us12.list-manage.com/subscribe/post?u=080e090d5f312d823069c9cce&amp;id=b1177eaf2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="email-subscribe mail-list-signup validate" target="_blank" novalidate>
+
+                                                        <!-- Begin MailChimp Signup Form -->
+                                                        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                                                        <style type="text/css">
+                                                                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                                                                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                                                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                                                        </style>
+                                                        <div id="mc_embed_signup">
+                                                        <form action="//gavelconference.us12.list-manage.com/subscribe/post?u=080e090d5f312d823069c9cce&amp;id=b1177eaf2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                                            <div id="mc_embed_signup_scroll">
+                                                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                                        <div class="mc-field-group">
+                                                                <label for="mce-FNAME">Name  <span class="asterisk">*</span>
+                                                        </label>
+                                                                <input type="text" placeholder="e.g:- John Doe" value="" name="FNAME" class="required" id="mce-FNAME">
+                                                        </div>
+                                                        <div class="mc-field-group">
+                                                                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                                                        </label>
+                                                                <input type="email" placeholder="e.g:- john.doe@jane.com" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                                        </div>
+                                                        <div class="mc-field-group size1of2">
+                                                                <label for="mce-MMERGE2">Phone Number  <span class="asterisk">*</span>
+                                                        </label>
+                                                                <input type="text" placeholder="e.g:- +9477XXXXXXX" name="MMERGE2" class="required" value="" id="mce-MMERGE2">
+                                                        </div>
+                                                        <div class="mc-field-group">
+                                                                <label for="mce-MMERGE3">I am a  <span class="asterisk">*</span>
+                                                        </label>
+                                                                <select name="MMERGE3" class="required" id="mce-MMERGE3">
+                                                                <option value=""></option>
+                                                                <option value="Gavellier">Gavellier</option>
+                                                        <option value="Student (Non Gavellier)">Student (Non Gavellier)</option>
+                                                        <option value="Professional (Toastmaster)">Professional (Toastmaster)</option>
+                                                        <option value="Professional (Non Gavellier)">Professional (Non Gavellier)</option>
+
+                                                                </select>
+                                                        </div>
+                                                        <div id="price_display" class="mc-field-group" style="display:none;">
+                                                                
+                                                        </div>
+                                                        <div class="mc-field-group" id="club_affil" style="display:none;">
+                                                                <label for="mce-MMERGE4">Affiliated Club </label>
+                                                                <select name="MMERGE4" class="" id="mce-MMERGE4">
+                                                                <option value=""></option>
+                                                                <option value="Gavel Club of University of Moratuwa">Gavel Club of University of Moratuwa</option>
+                                                        <option value="Gavel Club of University of Kelaniya">Gavel Club of University of Kelaniya</option>
+                                                        <option value="Gavel Club of University of Sri Jayawardenapura">Gavel Club of University of Sri Jayawardenapura</option>
+                                                        <option value="Gavel Club of University of Colombo">Gavel Club of University of Colombo</option>
+                                                        <option value="Gavel Club of University of Peradeniya">Gavel Club of University of Peradeniya</option>
+                                                        <option value="Gavel Club of Sabaragamuwa University of Sri Lanka">Gavel Club of Sabaragamuwa University of Sri Lanka</option>
+                                                        <option value="Gavel Club of University of Ruhuna">Gavel Club of University of Ruhuna</option>
+                                                        <option value="Gavel Club of SLIIT">Gavel Club of SLIIT</option>
+                                                        <option value="Gavel Club of IChem">Gavel Club of IChem</option>
+                                                        <option value="Gavel Club of BMS">Gavel Club of BMS</option>
+                                                        <option value="Gavel Club of Royal College Colombo">Gavel Club of Royal College Colombo</option>
+                                                        <option value="Gavel Club of Royal Institute">Gavel Club of Royal Institute</option>
+                                                        <option value="Colombo Toastmasters’ Gavel Club">Colombo Toastmasters’ Gavel Club</option>                                                        
+                                                        <option value="Gavel Club of Institute of Chartered Accountants">Gavel Club of Institute of Chartered Accountants</option>
+                                                        <option value="Gavel Club of IPM">Gavel Club of IPM</option>
+                                                        <option value="Other">Other</option>
+
+                                                                </select>
+                                                        </div>
+                                                                <div id="mce-responses" class="clear">
+                                                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_080e090d5f312d823069c9cce_b1177eaf2a" tabindex="-1" value=""></div>
+                                                            <div class="clear"><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="btn"></div>
+                                                            </div>
+                                                        </form>
+                                                        </div>
+                                                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MMERGE2';ftypes[2]='phone';fnames[3]='MMERGE3';ftypes[3]='dropdown';fnames[4]='MMERGE4';ftypes[4]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                                                        <!--End mc_embed_signup-->
+                                                    
+							<!--form action="//mrt.us12.list-manage.com/subscribe/post?u=080e090d5f312d823069c9cce&amp;id=b1177eaf2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="email-subscribe mail-list-signup validate" target="_blank" novalidate>
                                                         <!--form class="email-subscribe mail-list-signup"-->
-								<div class="col-sm-7">
+								<!--div class="col-sm-7">
 									<input class="form-email signup-email-field" type="text" placeholder="Enter your email address">
 								</div>
 							
@@ -761,7 +1347,7 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 								</div>
 								<iframe class="mail-list-form" srcdoc="">
 								</iframe>
-							</form>
+							</form-->
 						</div>
 					</div><!--end of row-->
                                         
@@ -801,10 +1387,10 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
 						</div>
 						<div class="col-sm-3">
 							<ul class="contact-methods">
-								<li><i class="icon pe-7f-drop"></i><span>Kasun Rosa</span></li>
-								<li><i class="icon pe-7f-study"></i><span>Treasurer,<br/> Gavel Club of University of Moratuwa</span></li>
-								<li><i class="icon pe-7f-map-phone"></i><span>+94 77 508 7470</span></li>
-								<li><i class="icon pe-7f-map-mail"></i><span>kasunrosa55@gmail.com</span></li>
+								<li><i class="icon pe-7f-drop"></i><span>Kasun Kodithuwakku</span></li>
+								<li><i class="icon pe-7f-study"></i><span>Head of Logistic,<br/>Gavel Conference</span></li>
+								<li><i class="icon pe-7f-map-phone"></i><span>+94 71 490 3392</span></li>
+								<li><i class="icon pe-7f-map-mail"></i><span>akkchanaka@gmail.com</span></li>
 							</ul>
 						</div>
 					</div><!--end of row-->
@@ -849,3 +1435,32 @@ Initiated by the Gavel Club of University of Moratuwa, the Gavel Conference is a
     </body>
 </html>
 				
+<script>
+$(document).ready(function() {
+    function displayVals() {
+        var person_val = $('#mce-MMERGE3').val();
+        console.log("In loop");
+        console.log(person_val);
+        if(person_val=="Gavellier"){
+            $('#price_display').empty().html('The ticket price for gavelliers is 1,500/= LKR (inclusive of lunch, snacks and stationery)').css({'display':'inline-block','font-weight':'600'});
+            $('#club_affil').css('display','inline-block');
+            console.log("In loop");
+        }
+        else if(person_val=="Student (Non Gavellier)"){
+            $('#price_display').empty().html('The ticket price for students (non-gavellier) is 2,500/= LKR (inclusive of lunch, snacks and stationery)').css({'display':'inline-block','font-weight':'600'});
+            $('#club_affil').css('display','none');
+        }
+        else if(person_val=="Professional (Toastmaster)"){
+            $('#price_display').empty().html('The ticket price for professionals (Toastmasters) is 4,000/= LKR (inclusive of lunch, snacks and stationery)').css({'display':'inline-block','font-weight':'600'});
+            $('#club_affil').css('display','none');
+        }
+        else if(person_val=="Professional (Non Gavellier)"){
+            $('#price_display').empty().html('The ticket price for professionals (non-gavellier) is 5,000/= LKR (inclusive of lunch, snacks and stationery)').css({'display':'inline-block','font-weight':'600'});
+            $('#club_affil').css('display','none');
+        }
+    }
+        
+    $( "#mce-MMERGE3" ).change( displayVals );
+    displayVals();
+});
+</script>
